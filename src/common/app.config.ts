@@ -8,27 +8,27 @@
  */
 export const Brand = {
   Title: {
-    Base: 'big-AGI',
-    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'big-AGI',
+    Base: 'Blocksquawk',
+    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'Blocksquawk',
   },
   Meta: {
-    Description: 'Launch big-AGI to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
-    SiteName: 'big-AGI | Precision AI for You',
+    Description: 'Blocksquawk custom AI development demo.',
+    SiteName: 'Blocksquawk',
     ThemeColor: '#32383E',
-    TwitterSite: '@enricoros',
+    TwitterSite: '@blocksquawk',
   },
   URIs: {
-    Home: 'https://big-agi.com',
-    // App: 'https://get.big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
-    OpenProject: 'https://github.com/users/enricoros/projects/4',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
-    // Twitter: 'https://www.twitter.com/enricoros',
-    PrivacyPolicy: 'https://big-agi.com/privacy',
-    TermsOfService: 'https://big-agi.com/terms',
+    Home: 'https://blocksquawk.io',
+    // App: 'https://blocksquawk.io',
+    CardImage: 'https://blocksquawk.io/icons/card-dark-1200.png',
+    OpenRepo: 'https://github.com/rmourey26/bg-agi',
+    OpenProject: 'https://github.com/users/rmourey26/projects/4',
+    SupportInvite: 'https://discord.gg/',
+    // Twitter: 'https://www.twitter.com/r_mourey_jr',
+    PrivacyPolicy: 'https://blocksquawk.io/privacy',
+    TermsOfService: 'https://blocksquawk.io/terms',
   },
   Docs: {
-    Public: (docPage: string) => `https://big-agi.com/docs/${docPage}`,
+    Public: (docPage: string) => `https://blocksquawk.io/docs/${docPage}`,
   }
 } as const;
